@@ -75,7 +75,7 @@ HomeTab:Toggle("启用: ", function(state)
 					pcall(function()
 						v.Character.HumanoidRootPart.Size = Vector3.new(HitboxSize, HitboxSize, HitboxSize)
 						v.Character.HumanoidRootPart.Transparency = HitboxTransparency
-						v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really black")
+						v.Character.HumanoidRootPart.BrickColor = BrickColor.new("azure")
 						v.Character.HumanoidRootPart.Material = "Neon"
 						v.Character.HumanoidRootPart.CanCollide = false
 					end)
@@ -87,7 +87,7 @@ HomeTab:Toggle("启用: ", function(state)
 					pcall(function()
 						v.Character.HumanoidRootPart.Size = Vector3.new(HitboxSize, HitboxSize, HitboxSize)
 						v.Character.HumanoidRootPart.Transparency = HitboxTransparency
-						v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really black")
+						v.Character.HumanoidRootPart.BrickColor = BrickColor.new("azure")
 						v.Character.HumanoidRootPart.Material = "Neon"
 						v.Character.HumanoidRootPart.CanCollide = false
 					end)
