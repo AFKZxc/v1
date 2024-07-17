@@ -66,7 +66,7 @@ end)
 
 HomeTab:Section("主要")
 
-HomeTab:Toggle("状态: ", function(state)
+HomeTab:Toggle("启用: ", function(state)
 	getgenv().HitboxStatus = state
     game:GetService('RunService').RenderStepped:connect(function()
 		if HitboxStatus == true and TeamCheck == false then
@@ -210,7 +210,7 @@ getgenv().enabled = state --Toggle on/off
 getgenv().filluseteamcolor = true --Toggle fill color using player team color on/off
 getgenv().outlineuseteamcolor = true --Toggle outline color using player team color on/off
 getgenv().fillcolor = Color3.new(0, 0, 0) --Change fill color, no need to edit if using team color
-getgenv().outlinecolor = Color3.new(0, 193, 221) --Change outline color, no need to edit if using team color
+getgenv().outlinecolor = Color3.new(20, 193, 221) --Change outline color, no need to edit if using team color
 getgenv().filltrans = 0.7 --Change fill transparency
 getgenv().outlinetrans = 0 --Change outline transparency
 
