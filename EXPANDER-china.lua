@@ -203,7 +203,7 @@ PlayerTab:Button("重新加入", function()
     game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
 end)
 
-VisualTab:InfoLabel("等待3-10 秒")
+VisualTab:InfoLabel("等待1秒")
 
 VisualTab:Toggle("内透", function(state)
 getgenv().enabled = state --Toggle on/off
@@ -212,7 +212,7 @@ getgenv().outlineuseteamcolor = true --Toggle outline color using player team co
 getgenv().fillcolor = Color3.new(0, 0, 0) --Change fill color, no need to edit if using team color
 getgenv().outlinecolor = Color3.new(1, 1, 1) --Change outline color, no need to edit if using team color
 getgenv().filltrans = 0.7 --Change fill transparency
-getgenv().outlinetrans = 0.5 --Change outline transparency
+getgenv().outlinetrans = 0 --Change outline transparency
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/RobloxScripts/main/Highlight-ESP.lua"))()
 end)
