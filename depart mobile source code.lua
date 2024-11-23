@@ -1,8 +1,3 @@
--- skid of the month the source is full chatgpt departK
--- “wannabetapper” a scammer and chagpt user all ur sources are from chatgpt
--- make something without chatgpt skid
-— discord.gg/elisium x100 better then this shit
-
 getgenv().Depart = {
     ["Aimbot"] = {
         ["Enabled"] = true,
